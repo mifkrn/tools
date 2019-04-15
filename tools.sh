@@ -36,7 +36,7 @@ echo "\033[31;1mPemograman:""\033[37;1mPHP"
 echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
-cd $HOME/LITESPAM/Tul/
+cd $HOME/tools/Tul/
 php 2.php
 fi
 
@@ -51,7 +51,7 @@ echo "\033[31;1mPemograman:""\033[37;1mPHP"
 echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
-cd $HOME/LITESPAM/Tul/
+cd $HOME/tools/Tul/
 php 3.php
 fi
 
@@ -66,7 +66,7 @@ echo "\033[31;1mPemograman:""\033[37;1mPHP"
 echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
-cd $HOME/LITESPAM/Tul/
+cd $HOME/tools/Tul/
 php 4.php
 fi
 
@@ -85,7 +85,7 @@ sleep 1
 echo "\033[32;1mtunggu 15 Detik"
 sleep 15
 clear
-cd $HOME/LITESPAM/Tul/
+cd $HOME/tools/Tul/
 php 5.php
 fi
 
@@ -99,7 +99,7 @@ echo "\033[31;1mBatas:""\033[37;1mUnlimited"
 echo "\033[31;1mPemograman:""\033[37;1mphp"
 echo "\033[31;1mAuthor:""\033[37;1mAm-Team"
 sleep 5
-cd $HOME/LITESPAM/Tul/
+cd $HOME/tools/Tul/
 php 6.php
 fi
 
