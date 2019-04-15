@@ -37,7 +37,7 @@ echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
 cd $HOME/tools/Tul/
-php 2.php
+php spam-tri.php
 fi
 
 if [ $mrrm = 2 ] || [ $mrrm = 2 ]
