@@ -4,6 +4,7 @@ system('cls') or system('clear');
 print "============================================\n";
 print " Author : MFx99  ||  CP : +6282113782871 \n";
 print "============================================\n";
+print "Developer: MIFTAHUDIN || Aditya Pramudya S\n";
 print "============================================\n";
 print "  Thx For AM-TEAM And All Member AM-TEAM  \n";
 print "============================================\n";
