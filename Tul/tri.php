@@ -45,5 +45,3 @@ echo "[".$x."/".$request."][".$argv[1]."] GAGAL!\n";
 }
 }
 ?>
-sleep 5
-sh tools.sh
