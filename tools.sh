@@ -18,7 +18,8 @@ echo "\033[35;1m2.""\033[36;1mGrab (Spam Call)"
 echo "\033[35;1m3.""\033[36;1mTokopedia (Spam Call)"
 echo "\033[35;1m4.""\033[36;1mCodaShop (Spam SMS | Telkomsel)"
 echo "\033[35;1m5.""\033[36;1mSurveyon (Spam Email)"
-echo "\033[35;1m6.""\033[36;1mCustom"
+echo "\033[35;1m6.""\033[36;1mSpam SMS 4444 (Khusus Tri)"
+echo "\033[35;1m7.""\033[36;1mCustom"
 echo "\033[31;1m0. Keluar"
 echo "\033[37;1m81.""\033[30;1mInformasi Tool Ini"
 echo "\033[33;1m Pilih Angka:"
@@ -37,7 +38,7 @@ echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
 cd $HOME/tools/Tul/
-php spam-tri.php
+php tsel.php
 fi
 
 if [ $mrrm = 2 ] || [ $mrrm = 2 ]
@@ -52,7 +53,7 @@ echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
 cd $HOME/tools/Tul/
-php 3.php
+php grab.php
 fi
 
 
@@ -67,7 +68,7 @@ echo "\033[31;1mAuthor:""\033[37;1mAM-Team"
 sleep 5
 clear
 cd $HOME/tools/Tul/
-php 4.php
+php toped.php
 fi
 
 if [ $mrrm = 4 ] || [ $mrrm = 4 ]
@@ -86,7 +87,7 @@ echo "\033[32;1mtunggu 15 Detik"
 sleep 15
 clear
 cd $HOME/tools/Tul/
-php 5.php
+php cs.php
 fi
 
 if
@@ -100,11 +101,25 @@ echo "\033[31;1mPemograman:""\033[37;1mphp"
 echo "\033[31;1mAuthor:""\033[37;1mAm-Team"
 sleep 5
 cd $HOME/tools/Tul/
-php 6.php
+php email.php
 fi
 
 if
 [ $mrrm = 6 ] || [ $mrrm = 6 ]
+then
+clear
+toilet -f standard -F gay "tri "
+echo "\033[31;1mJenis Spam:""\033[37;1mSMS"
+echo "\033[31;1mBatas:""\033[37;1mUnlimited"
+echo "\033[31;1mPemograman:""\033[37;1mphp"
+echo "\033[31;1mAuthor:""\033[37;1mAm-Team"
+sleep 5
+cd $HOME/tools/Tul/
+php tri.php
+fi
+
+if
+[ $mrrm = 7 ] || [ $mrrm = 7 ]
 then
 clear
 toilet -f slant --gay "SMSID"
